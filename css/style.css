@@ -1,0 +1,389 @@
+ .header .wrapper
+ {
+	width:100%;
+    margin:auto;	
+ }
+ 
+  .banner .wrapper
+ {
+	width:100%;
+    margin:auto;	
+ }
+ .image .wrapper
+ {
+	 width:100%;
+	 margin:auto;	
+ }
+ .services .wrapper
+ {
+	 width:100%;
+	 margin:auto;	
+ }
+ .about .wrapper
+ {
+	  width:80%;
+	 margin:auto;	
+ }
+ .content .wrapepr
+ {
+	  width:80%;
+	 margin:auto;	
+ }
+ .posts .wrapper
+ {
+	  width:100%;
+	 margin:auto;	
+ }
+ .contact .wrapepr
+ {
+	  width:80%;
+	 margin:auto;	
+ }
+ .header
+ {
+	 height:80px;
+ }
+ .header .header-fc 
+ {
+	 display:flex;
+	 justify-content:space-between;
+ }
+ .header .header-fc .home
+ {
+	 text-align:center;
+	 background-color:#03a9f4;
+	 width:50%;
+	 height:80px;
+ }
+ .header .header-fc .navi
+ {
+	 text-align:center;
+	 background-color:pink;
+	 width:50%;
+	 height:80px;
+ }
+ .banner 
+{
+	text-align:center;
+	height:600px;
+	background-color:yellow;
+}
+.banner .banner-fc 
+{
+	display:flex;
+	flex-direction:start;
+}
+.banner .banner-fc .boxa
+{
+	height:450px;
+	width:40%;
+	background-color:#009688;
+	margin-top:40px;
+}
+ .banner .banner-fc .boxa-fc 
+ {
+ display:flex;
+ justify-content:center;
+ }
+ .banner .banner-fc .boxa-fc .small
+ {
+background-color:white;
+height:40px;
+width:60%;
+margin-top:250px;
+ }	 
+ .image 
+{
+	text-align:center;
+	height:600px;
+	background-color:blue;
+}
+.image .image-fc 
+{
+	display:flex;
+	flex-direction:start;
+}
+.image .image-fc .boxa
+{
+	height:450px;
+	width:40%;
+	background-color:yellow;
+	margin-top:40px;
+}
+ .services
+{
+	background-color:green;
+    height:800px;
+	text-align:center;
+}
+.services .services-fc
+{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+.services .services-fc .boxa
+{
+	text-align:center;
+	height:200px;
+	width:30%;
+	background-color:crimson;
+	margin-top:100px;
+}
+.services .services-fc .boxb
+{
+	text-align:center;
+	height:200px;
+	width:30%;
+	background-color:crimson;
+	margin-top:100px;
+}
+.services .services-fc .boxc
+{
+	text-align:center;
+	height:200px;
+	width:30%;
+	background-color:crimson;
+	margin-top:100px;
+}
+.services .services-fc .boxd
+{
+	text-align:center;
+	height:200px;
+	width:30%;
+	background-color:crimson;
+	margin-top:100px
+}
+	.services .services-fc .boxe
+{
+	text-align:center;
+	height:200px;
+	width:30%;
+	background-color:crimson;
+	margin-top:100px;
+}
+ 	.services .services-fc .boxf
+{
+	text-align:center;
+	height:200px;
+	width:25%;
+	background-color:crimson;
+	margin-top:100px;
+}
+.about
+{
+	text-align:center;
+	background-color:yellow;
+	height:400px;
+}
+.about .about-fc 
+{
+	display:flex;
+	
+}
+.about .about-fc .call
+{
+	background-color:white;
+	height:50px;
+	width:40%;
+	margin:auto;
+	margin-top:200px;
+}
+ .content
+ {
+	 background-color:#ff5722;
+	 height:600px;
+	 text-align:center;
+ }
+ .content .content-fc 
+ {
+	 display:flex;
+	 flex-direction:column;
+ }
+ .content .content-fc .boxa
+ {
+	 background-color:plum;
+	 height:200px;
+	 width:50%;
+	 margin-top:50px;
+ }
+	 .content .content-fc .boxb
+ {
+	 background-color:plum;
+	 height:200px;
+	 width:50%;
+	 margin-top:50px;
+ }
+	 .content .content-fc .boxb-fc
+	 {
+		 display:flex;
+		 justify-content:center;
+	 }
+	 .content .content-fc .boxb-fc .small
+	 {
+		 margin-top:50px;
+		 background-color:green;
+		 height:100px;
+		 width:50%;
+	 }
+ .posts
+ {
+	 background-color:#e91e63;
+	 height:500px;
+	 text-align:center;
+ }
+ .posts .posts-fc
+ {
+	 display:flex;
+	 justify-content:space-evenly;
+ }
+ .posts .posts-fc .boxa
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:18%;
+	 margin-top:30px;
+ }
+	 .posts .posts-fc .boxb
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:18%;
+	 margin-top:30px;
+ }
+ .posts .posts-fc .boxc
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:18%;
+	 margin-top:30px;
+ }
+	.posts .posts-fc .boxd
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:18%;
+	 margin-top:30px;
+ }  
+.contact
+ {
+	 background-color:yellow;
+	 height:500px;
+	 text-align:center;
+ }
+ .contact .contact-fc
+ {
+	 display:flex;
+	 justify-content:space-between;
+ }
+ .contact .contact-fc .boxa
+ {
+	 background-color:#03a9f4;
+	 height:200px;
+	 width:40%;
+	 margin-top:30px;
+ }
+	 .contact .contact-fc .boxb
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:15%;
+	 margin-top:30px;
+ }
+ .contact .contact-fc .boxc
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:15%;
+	 margin-top:30px;
+ }
+	.contact .contact-fc .boxd
+ {
+	 background-color:#03a9f4;
+	 height:400px;
+	 width:15%;
+	 margin-top:30px;
+ }  	 
+	.copyright
+	{
+		text-align:center;
+     background-color:#ff5722;
+      height:250px;
+     width:100%;
+	}		
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
